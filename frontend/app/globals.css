@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --theme-background: #ffffff;
+  --theme-foreground: #000000;
+  --theme-font-family: "Courier New", Courier, monospace;
+  --theme-body-size: 1rem;
+  --theme-heading-size: 2.25rem;
+  --theme-page-padding: 1.5rem;
+  --theme-page-padding-wide: 2.5rem;
+}
+
+body {
+  background: var(--theme-background);
+  color: var(--theme-foreground);
+  font-family: var(--theme-font-family);
+  font-size: var(--theme-body-size);
+}
+
+.app-shell {
+  padding: var(--theme-page-padding);
+}
+
+.app-heading {
+  font-size: var(--theme-heading-size);
+}
+
+@media (min-width: 640px) {
+  .app-shell {
+    padding: var(--theme-page-padding-wide);
+  }
+}

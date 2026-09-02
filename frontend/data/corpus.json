@@ -1,0 +1,34 @@
+[
+  {
+    "id": "aws",
+    "headword": "AWS",
+    "pos": "proper noun",
+    "definitions": [
+      {
+        "text": "Amazon Web Services, a cloud computing platform that provides on-demand infrastructure and managed services.",
+        "examples": [
+          "The team deploys its application on AWS.",
+          "AWS offers services for computing, storage, and networking."
+        ]
+      }
+    ],
+    "etymology": "Initialism of Amazon Web Services.",
+    "related": ["ec2"]
+  },
+  {
+    "id": "ec2",
+    "headword": "EC2",
+    "pos": "proper noun",
+    "definitions": [
+      {
+        "text": "Amazon Elastic Compute Cloud, an AWS service for running virtual servers called instances.",
+        "examples": [
+          "The API runs on an EC2 instance.",
+          "EC2 lets teams scale server capacity as demand changes."
+        ]
+      }
+    ],
+    "etymology": "Initialism of Elastic Compute Cloud.",
+    "related": ["aws"]
+  }
+]
