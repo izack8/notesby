@@ -15,6 +15,9 @@ export default async function EntryPage({ params }: EntryPageProps) {
 			<main className="flex flex-1 flex-col">
 				<h1 className="app-heading font-bold">{id}</h1>
 				<p className="mt-6">This word has not been defined yet.</p>
+				<Link className="mt-4 w-fit border px-3 py-1" href={{ pathname: "/new", query: { headword: id } }}>
+					add it in!
+				</Link>
 			</main>
 		);
 	}
@@ -44,16 +47,6 @@ export default async function EntryPage({ params }: EntryPageProps) {
 					</li>
 				))}
 			</ol>
-
-			{entry.etymology && (
-				<section className="mt-6">
-					<h2 className="font-bold">etymology</h2>
-					<p>
-						<LinkedText text={entry.etymology} />
-					</p>
-				</section>
-			)}
-
 			{entry.related.length > 0 && (
 				<section className="mt-6">
 					<h2 className="font-bold">related</h2>

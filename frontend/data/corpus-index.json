@@ -1,0 +1,9 @@
+{
+  "index": {
+    "aws": "aws",
+    "ec2": "ec2",
+    "aws fargate": "aws-fargate",
+    "fargate": "aws-fargate"
+  },
+  "maxPhraseLength": 2
+}

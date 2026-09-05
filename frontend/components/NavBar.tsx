@@ -10,7 +10,8 @@ export default function NavBar() {
   const tabs = [
     { name: 'Home', path: `/` },
     { name: 'Topics', path: `/topic` },
-    { name: 'Corpus', path: `/corpus` }
+    { name: 'Corpus', path: `/corpus` },
+    { name: 'New', path: `/new` }
   ];
 
   return (

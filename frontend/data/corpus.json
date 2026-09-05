@@ -12,8 +12,9 @@
         ]
       }
     ],
-    "etymology": "Initialism of Amazon Web Services.",
-    "related": ["ec2"]
+    "related": [
+      "ec2"
+    ]
   },
   {
     "id": "ec2",
@@ -28,7 +29,29 @@
         ]
       }
     ],
-    "etymology": "Initialism of Elastic Compute Cloud.",
-    "related": ["aws"]
+    "related": [
+      "aws"
+    ]
+  },
+  {
+    "id": "aws-fargate",
+    "headword": "AWS Fargate",
+    "pos": "proper noun",
+    "definitions": [
+      {
+        "text": "A serverless compute engine from AWS for running containers without managing virtual servers.",
+        "examples": [
+          "The service runs its containers on AWS Fargate.",
+          "Fargate automatically provisions the compute capacity for each task."
+        ]
+      }
+    ],
+    "related": [
+      "aws",
+      "ec2"
+    ],
+    "aliases": [
+      "Fargate"
+    ]
   }
 ]

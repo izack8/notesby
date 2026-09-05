@@ -8,8 +8,8 @@ export type Entry = {
     text: string;
     examples: string[];
   }>;
-  etymology?: string;
   related: string[];
+  aliases?: string[];
 };
 
 export const entries = corpus as Entry[];
